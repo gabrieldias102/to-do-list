@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
 import { InputField } from "./components/InputField"
+import { TaskBoard } from "./components/TaskBoard"
 
 import { useState } from 'react'
 
@@ -13,6 +14,8 @@ function App() {
       <Header />
 
       <InputField />
+
+      <TaskBoard />
     </div>
   )
 }
