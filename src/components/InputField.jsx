@@ -5,7 +5,7 @@ import styles from './InputField.module.css'
 export function InputField() {
     return (
         <div className={styles.container}>
-            <form>
+            <form className={styles.inputForm}>
                 <textarea 
                     className={styles.taskTitleFiel}
                     defaultValue={'Adicione uma nova tarefa'}>
@@ -14,7 +14,6 @@ export function InputField() {
                     Criar 
                     <PlusCircle size={32}/> 
                 </button>
-                
             </form>
         </div>
     )
