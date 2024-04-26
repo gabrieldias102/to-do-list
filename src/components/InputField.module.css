@@ -23,7 +23,7 @@
 } 
 
 .taskTitleFiel {
-    width: 45rem;
+    width: 100%;
 
     background-color: var(--gray-500);
     color: var(--gray-300);
@@ -35,8 +35,6 @@
 .addButton {    
     color: white;
     background-color: var(--blue-dark);
-
-    width: 6rem;
 
     display: flex;
     justify-content: center;
