@@ -4,18 +4,21 @@ import { TaskBoard } from "./components/TaskBoard"
 
 import { useState } from 'react'
 
-import './App.css'
+import styles from './App.module.css'
 import './global.css'
 
 function App() {
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Header />
 
-      <InputField />
+      <div className={styles.centralDiv}>
+        <InputField />
 
-      <TaskBoard />
+        <TaskBoard />
+      </div>
+      
     </div>
   )
 }
